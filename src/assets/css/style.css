@@ -1,11 +1,12 @@
 :root {
-    --primary: rgb(139, 66, 242); 
+    --primary: rgb(67, 38, 107); 
     --secondary: rgb(228, 150, 48);
     --white: rgb(253, 253, 253);
     --danger: rgb(250, 110, 67);
     --black: #222;
     --grey1: #3a3b3c;
     --grey2: #828282;
+    --green: #059284;
   }
 
   body {

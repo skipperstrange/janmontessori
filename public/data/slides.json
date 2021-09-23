@@ -1,0 +1,42 @@
+ [
+        {
+            "title": "Welcome to Little Ones",
+            "subtitle": "Little Ones is a Super Fun Daycare / Happy home for all children",
+            "img": "img/slides/slide1.jpg",
+            "link" :{ 
+                "title":"Contact Us",
+                "href": "#contact"
+            },
+            "show": true
+        },
+        {
+            "title": "Welcome to Little Ones",
+            "subtitle": "Little Ones is a Super Fun Daycare / Happy home for all children",
+            "img": "img/slides/slide2.jpg",
+            "link" :{ 
+                "title":"Contact Us",
+                "href": "#contact"
+            },
+            "show": true
+        },
+        {
+            "title": "Welcome to Little Ones",
+            "subtitle": "Little Ones is a Super Fun Daycare / Happy home for all children",
+            "img": "img/slides/slide3.jpg",
+            "link" :{ 
+                "title":"Contact Us",
+                "href": "#contact"
+            },
+            "show": true
+        },
+        {
+            "title": "Welcome to Little Ones",
+            "subtitle": "Little Ones is a Super Fun Daycare / Happy home for all children",
+            "img": "img/slides/slide4.jpg",
+            "link" :{ 
+                "title":"Contact Us",
+                "href": "#contact"
+            },
+            "show": true
+        }
+    ]
