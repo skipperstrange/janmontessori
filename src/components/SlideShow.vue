@@ -21,32 +21,15 @@
 
 <script>
 export default{
-    name: "Slider",
+    name: "SlideShow",
 
     props: {
           slides: []
-    },
-    data() {
-        return {
-            is_data_fetched: true,
-        }
-    },
-
-    methods: {
-        
-    },
-
-    mounted() {
-        console.log(this.slides)
-    },
-
-     created() {
-          console.log(this.slides)
     }
 }
 </script>
 
-<style>
+<style scoped>
 /* ===========================
  Main Slider
 ============================ */
@@ -74,6 +57,18 @@ export default{
     right: 25%!important;
     top: 50%!important;
 }
+
+/************ min width 1900px *************/
+
+@media (min-width: 1900px) {
+    /* Slider */
+    
+    #layerslider {
+        height: 900px!important;
+    }
+}
+/************ min width 1500px *************/
+
 
 /************ max width 1300px *************/
 

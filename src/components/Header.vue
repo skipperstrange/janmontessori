@@ -9,6 +9,7 @@
           <!-- Logo -->
           <div class="navbar-brand page-scroll">
               <a href="/"><img src="../assets/logo.png" class="img-responsive" alt=""></a>
+              <h2>Jan Montessori</h2>
           </div>
         </div>
         <!-- /.navbar-header -->
@@ -44,7 +45,7 @@ export default {
 ============================ */
 
 .navbar {
-    background: var(--secondary);
+    background: var(--primary);
     z-index: 999;
     width: 100%;
     border: 0px;
@@ -79,7 +80,7 @@ export default {
     padding-bottom: 20px;
     color: #fff;
     border-radius: 0px 0px 5px 5px;
-    background: var(--primary);
+    background: var(--secondary);
 }
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
     padding-top: 0px;
@@ -134,5 +135,13 @@ export default {
     position: absolute;
     left: 0;
     right: 0;
+    top: .5rem;
+}
+
+.navbar-brand h2{
+  font-size: 3.2rem;
+  color: var(--white);
+  margin-left: 4rem;
+  margin-top: -.5rem;
 }
 </style>

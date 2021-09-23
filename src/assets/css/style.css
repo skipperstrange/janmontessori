@@ -1,6 +1,6 @@
 :root {
-    --primary: rgb(67, 38, 107); 
-    --secondary: rgb(228, 150, 48);
+    --primary: rgb(3,40,68); 
+    --secondary: rgb(239,209,31);
     --white: rgb(253, 253, 253);
     --danger: rgb(250, 110, 67);
     --black: #222;
@@ -170,4 +170,13 @@ img {
     40% {
         transform: scale(1.0);
     }
+}
+
+
+.header-text h1 {
+    margin-top: 0px;
+    color: #fff;
+}
+.header-text p {
+    color: #fff;
 }

@@ -9,6 +9,7 @@
 import Header from '@/components/Header.vue'
 import '@/assets/css/style.css'
 
+
 export default {
   name: 'App',
   components: {

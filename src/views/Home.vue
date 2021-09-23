@@ -1,23 +1,21 @@
 <template>
     <div id="main" class="home">
-        <Slider :slides="slides" />
+        <SlideShow :slides="slides" />
         <section id="services" class="container">
-               <!-- Section heading -->
-               <div class="section-heading">
-                  <h2>High Quality Day Care</h2>
-                  <!-- divider -->
-                  <div class="hr"></div>
-               </div>
-           </section>
+              <section-heading title="High Quality Day Care"  />
+        </section>
     </div>
 </template>
 
 <script>
-import Slider from "@/components/slider.vue"
+import SlideShow from "@/components/SlideShow.vue"
+import SectionHeading from "@/components/shared/section-heading"
+
 export default {
   name: 'Home',
   components: {
-      Slider
+      SlideShow,
+      SectionHeading
   },
   props: {
 
@@ -39,3 +37,4 @@ export default {
   },
 }
 </script>
+
