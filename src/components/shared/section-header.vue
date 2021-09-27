@@ -9,7 +9,7 @@
 
 <script>
 export default{
-    name: "SectionHeading",
+    name: "SectionHeader",
 
     props: {
           title: String,
@@ -39,5 +39,46 @@ beforeUpdate: function() {
 }
 }
 </script>
+
+<style>
+
+/* Sections heading */
+
+.section-heading {
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+.section-heading h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-heading .hr {
+    border-top: 1px dotted;
+    text-align: center;
+    max-width: 150px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+.section-heading .hr:after {
+    content: "\f101"; /* Icon that changes when icon value of component changes. Visit flat icons file for icon options */
+    font-family: Flaticon;
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    padding: 0 10px;
+    font-size: 38px;
+}
+.section-heading .hr.light,
+.section-heading .hr.light:after {
+    color: #fff;
+}
+
+ /* Space between sections */
+    
+    .section-heading {
+        margin-bottom: 30px;
+    }
+</style>
 
 

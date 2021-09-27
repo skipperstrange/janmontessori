@@ -25,7 +25,12 @@ export default{
 
     props: {
           slides: []
-    }
+    },
+    mounted() {
+        console.log(this.slides)
+    },
+
+
 }
 </script>
 
@@ -33,6 +38,7 @@ export default{
 /* ===========================
  Main Slider
 ============================ */
+
 
 #layerslider {
     padding-top: 60px;

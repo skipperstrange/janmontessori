@@ -1,21 +1,22 @@
 <template>
     <div id="main" class="home">
         <SlideShow :slides="slides" />
+
         <section id="services" class="container">
-              <section-heading title="High Quality Day Care"  />
+              <BasicSection  :banner="services.img" :header="services.header" :listData="services.servicesList" :content="services.brief"/>
         </section>
     </div>
 </template>
 
 <script>
 import SlideShow from "@/components/SlideShow.vue"
-import SectionHeading from "@/components/shared/section-heading"
+import BasicSection from "@/views/BasicSection.vue"
 
 export default {
   name: 'Home',
   components: {
       SlideShow,
-      SectionHeading
+      BasicSection
   },
   props: {
 
@@ -23,7 +24,8 @@ export default {
 
   data(){
       return {
-          slides: []
+          slides: [],
+          services: {}
       }
   },
 
@@ -33,6 +35,13 @@ export default {
             .get('./data/slides.json')
             .then(response=> {
                 this.slides = response.data;
+            });
+
+            this.$axios
+            .get('./data/services.json')
+            .then(response=> {
+                this.services = response.data;
+                console.log(this.services)
             });
   },
 }

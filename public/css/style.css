@@ -932,57 +932,7 @@ footer .footer-icons i {
 .owl-dot.active {
     transform: scale(1.5);
 }
-/* Sections */
 
-section {
-    padding: 80px 0px;
-}
-#page-section section {
-    padding: 60px 0px;
-}
-.small-section {
-    position: relative;
-    padding: 70px 0px!important;
-}
-/* main wrapper */
-
-#main {
-    background: #fff;
-}
-#main section {
-    padding: 120px 0px;
-}
-/* Sections heading */
-
-.section-heading {
-    margin-bottom: 50px;
-    text-align: center;
-    position: relative;
-}
-.section-heading h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.section-heading .hr {
-    border-top: 1px dotted;
-    text-align: center;
-    max-width: 150px;
-    margin-top: 50px;
-    margin: 0 auto;
-}
-.section-heading .hr:after {
-    content: "\f101";
-    font-family: Flaticon;
-    display: inline-block;
-    position: relative;
-    top: -25px;
-    padding: 0 10px;
-    font-size: 38px;
-}
-.section-heading .hr.light,
-.section-heading .hr.light:after {
-    color: #fff;
-}
 /* Custom Link */
 
 .custom-link {
@@ -1907,11 +1857,7 @@ button.list-group-item:hover {
         padding-top: 0px;
         padding-bottom: 0px;
     }
-    /* Space between sections */
-    
-    .section-heading {
-        margin-bottom: 30px;
-    }
+   
     /* miscelaneous */
     
     .sidebar {

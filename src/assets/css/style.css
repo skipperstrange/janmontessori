@@ -180,3 +180,24 @@ img {
 .header-text p {
     color: #fff;
 }
+
+/* Sections */
+
+section {
+    padding: 4rem 0rem;
+}
+#page-section section {
+    padding: 4rem 0rem;
+}
+.small-section {
+    position: relative;
+    padding: 6rem 0rem!important;
+}
+/* main wrapper */
+
+#main {
+    background: #fff;
+}
+#main section {
+    padding: 6rem 0rem;
+}

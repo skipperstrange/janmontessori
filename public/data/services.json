@@ -1,0 +1,20 @@
+{
+    "header": "High Quality Day Care",              
+    "img": "img/services/services.jpg",
+    "brief": "Little Ones Daycare will provide a stimulating and safe environment for children ages three months to ten years. Run by an experienced former elementary school educator (Jane Doe).",
+    "listIcon": "",
+    "servicesList": [
+        { 
+            "text": "Ibu lum orci eget, viverra elit. Aliquam erat volut pat phas ellus ac sodales felis tiam non", 
+            "link": "#"
+        },
+        { 
+            "text": "Aliquam erat volut pat phas ellu Ibu lum orci eget, viverra elit. Aliquam erat volut pat phas ellus ac sodales felis tiam non", 
+            "link": "#"
+        },
+        { 
+            "text": "Ellus ac sodales felis tiam non", 
+            "link": "#"
+        }
+    ]
+}
