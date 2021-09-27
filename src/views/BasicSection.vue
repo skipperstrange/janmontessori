@@ -2,9 +2,8 @@
     <div>
       <section-header :title="header"  />
        <div v-if="banner" class="col-md-5">
-                  <img :src="imgSrc" class="img-responsive img-curved center-block" alt=""/> 
-                  {{imgSrc}}
-      </div>
+                  <img :src="imgSrc" class="img-responsive img-curved center-block" alt=""/>
+       </div>
       <div class="col-md-12 col-md-7 res-margin">
                   <h3 v-if="header">{{header}}</h3>
                   <p>

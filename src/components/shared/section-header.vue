@@ -45,7 +45,7 @@ beforeUpdate: function() {
 /* Sections heading */
 
 .section-heading {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     text-align: center;
     position: relative;
 }
@@ -77,7 +77,7 @@ beforeUpdate: function() {
  /* Space between sections */
     
     .section-heading {
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
     }
 </style>
 

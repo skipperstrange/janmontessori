@@ -1,0 +1,46 @@
+{
+    "name": "Jan Montessori School",
+    "breifing": "",
+    "contactBrief": "Do you have questions? Don't hesitate. Reach out to us and we can help you find answers.",
+    "contacts":{
+        "telephone": {"info": "+233555202047", "icon":"fa-phone"},
+        "mobile": {"info": "+233555202047", "icon":"fa-mobile "},
+        "fax": {"info": "", "icon":"fa-fax "},
+        "email": {"info": "janmontessorishoole@outlook.com", "icon": "fa-at"}
+    },
+    "address": {
+        "detail":"",
+        "icon": ""
+    },
+    "location": {
+        "lon": "",
+        "lat": ""
+    },
+    "social": {
+        "linkedin":{
+            "icon": "",
+            "link": "",
+            "show": false
+        },
+        "facebook":{
+            "icon": "",
+            "link": "",
+            "show": false
+        },
+        "twitter":{
+            "icon": "",
+            "link": "",
+            "show": false
+        },
+        "instagram":{
+            "icon": "",
+            "link": "",
+            "show": false
+        },
+        "pintrest":{
+            "icon": "",
+            "link": "",
+            "show": false
+        }
+    }
+}

@@ -26,11 +26,6 @@ export default{
     props: {
           slides: []
     },
-    mounted() {
-        console.log(this.slides)
-    },
-
-
 }
 </script>
 
